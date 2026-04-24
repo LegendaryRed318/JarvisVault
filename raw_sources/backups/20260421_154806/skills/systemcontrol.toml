@@ -1,0 +1,26 @@
+[skill]
+name = "systemcontrol"
+trigger = "shutdown"
+description = "System control operations"
+
+[actions]
+shutdown = "system_shutdown"
+restart = "system_restart"
+lock = "system_lock"
+screenshot = "system_screenshot"
+
+[triggers]
+phrases = [
+    "shutdown",
+    "restart",
+    "lock computer",
+    "take screenshot",
+    "screenshot"
+]
+
+[response]
+shutdown_confirm = "Shutting down the system, RED."
+restart_confirm = "Restarting now, RED."
+lock_confirm = "Locking the workstation, RED."
+screenshot_confirm = "Screenshot captured, RED."
+error = "System command failed, RED."

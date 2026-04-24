@@ -1,0 +1,22 @@
+[skill]
+name = "notes"
+trigger = "take note"
+description = "Save notes to the vault"
+
+[actions]
+save = "vault_save"
+retrieve = "vault_read"
+
+[triggers]
+phrases = [
+    "take a note",
+    "save this",
+    "remember that",
+    "write down",
+    "note to self",
+    "add to my notes"
+]
+
+[response]
+success = "Saved to your vault, RED."
+error = "Couldn't save the note, RED."

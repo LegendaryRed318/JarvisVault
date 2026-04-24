@@ -1,0 +1,21 @@
+[skill]
+name = "youtube"
+trigger = "youtube"
+description = "Search and play YouTube videos"
+
+[actions]
+search = "https://www.youtube.com/results?search_query={query}"
+play = "https://www.youtube.com/watch?v={video_id}"
+
+[triggers]
+phrases = [
+    "play on youtube",
+    "search youtube for",
+    "find video about",
+    "play music on youtube",
+    "youtube search"
+]
+
+[response]
+success = "Searching YouTube for {query}, RED."
+error = "I couldn't access YouTube at the moment, RED."

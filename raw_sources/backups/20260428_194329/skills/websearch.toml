@@ -1,0 +1,20 @@
+[skill]
+name = "websearch"
+trigger = "search"
+description = "Web search using DuckDuckGo"
+
+[actions]
+search = "https://duckduckgo.com/?q={query}"
+
+[triggers]
+phrases = [
+    "search for",
+    "look up",
+    "find information",
+    "google",
+    "search web"
+]
+
+[response]
+success = "Searching the web for {query}, RED."
+error = "Search unavailable at the moment, RED."

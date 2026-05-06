@@ -1,0 +1,18 @@
+# Add to Notes - Voice note capture
+[skill]
+name = "add_to_notes"
+trigger = "add to notes"
+aliases = ["take a note", "note this", "remember this"]
+trigger_mode = "contains"
+description = "Voice note capture and save to vault"
+priority = 50
+enabled = true
+requires_online = false
+cooldown_seconds = 30
+timeout_seconds = 15
+
+[action]
+type = "voice_capture_then_write"
+vault_path = "E:/JarvisVault/notes"
+response = "Go ahead, sir."
+after_capture = "Noted."

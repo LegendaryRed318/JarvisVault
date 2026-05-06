@@ -1,0 +1,20 @@
+[skill]
+name = "calculator"
+trigger = "calculate"
+description = "Perform calculations"
+
+[actions]
+math = "eval"
+
+[triggers]
+phrases = [
+    "calculate",
+    "what is",
+    "compute",
+    "solve",
+    "math problem"
+]
+
+[response]
+success = "The result is {result}, RED."
+error = "I couldn't compute that, RED."

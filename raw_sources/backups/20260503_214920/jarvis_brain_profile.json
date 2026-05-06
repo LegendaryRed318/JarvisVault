@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "preferred_name": "RED",
+    "full_name": "Olamide Arowolo and I am",
+    "pronouns": "he/him",
+    "age_years": 14,
+    "birthdate": "October 25",
+    "origin": "Nigeria",
+    "current_location": "United Kingdom",
+    "school": "St Illtyds High School",
+    "best_friends": [
+      "Tyler",
+      "Daniel",
+      "Junior"
+    ]
+  },
+  "preferences": {
+    "tone": {
+      "likes_humor": true,
+      "direct_feedback": true,
+      "can_be_blunt": true,
+      "allow_profanity_general": true,
+      "allow_slurs": true
+    },
+    "budget": {
+      "prefers_free_tools": true
+    },
+    "prefers_free_tools": true,
+    "likes_humor": true,
+    "communication": "direct"
+  },
+  "goals": {
+    "primary": [
+      "Become a billionaire",
+      "Become an entrepreneur",
+      "Build Jarvis as greatest invention",
+      "Lose weight"
+    ],
+    "money_mindset": "Strongly focused on making money and business growth."
+  },
+  "interests": {
+    "coding": true,
+    "gaming": [
+      "Minecraft"
+    ],
+    "sports": [
+      "football",
+      "rugby",
+      "tennis",
+      "basketball",
+      "swimming"
+    ]
+  },
+  "assistant_rules": {
+    "ask_clarifying_questions_on_personal_challenges": true,
+    "use_he_him_pronouns": true,
+    "financial_advisor_mode": "guidance_only_no_direct_fund_control",
+    "location_tracking": "enabled",
+    "device_surveillance": "enabled",
+    "offensive_language_policy": "slurs_allowed"
+  },
+  "contacts": {
+    "emails": [
+      "test@example.com"
+    ]
+  },
+  "projects": [
+    "NexusPlay.io",
+    "GameGalaxy Hub",
+    "Brainify AI",
+    "BloodLust Minecraft Plugin"
+  ],
+  "updated_at": "2026-04-21T20:42:46.901310",
+  "brain_dump": {
+    "notes": "Money-focused mindset, student builder, likes practical systems.",
+    "raw_export_saved": true
+  },
+  "imported_memories": {
+    "raw_export_excerpt": "My full name is Olamide Arowolo and I am 14 years old. Email: Olamidepeniel@gmail.com"
+  }
+}

@@ -1,0 +1,17 @@
+# End of Day - Session summary logging
+[skill]
+name = "end_of_day"
+trigger = "end of day"
+aliases = ["wrap up", "eod", "thats it for today", "shutting down"]
+trigger_mode = "contains"
+description = "Session summary logging to vault"
+priority = 50
+enabled = true
+requires_online = false
+cooldown_seconds = 60
+timeout_seconds = 10
+
+[action]
+type = "vault_log"
+vault_path = "E:/JarvisVault/logs"
+response = "End of day logged, sir. Rest well."

@@ -1,0 +1,22 @@
+[skill]
+name = "Remote Admin Bridge"
+trigger = "remote"
+aliases = [
+    "check battery on", 
+    "disk space on", 
+    "how full is", 
+    "restart the", 
+    "reboot the", 
+    "uptime of", 
+    "memory on", 
+    "ram on",
+    "open * on"
+]
+enabled = true
+priority = 10
+requires_online = false
+trigger_mode = "contains"
+description = "Control and monitor remote devices via SSH/Tailscale"
+
+[action]
+type = "remote_admin"

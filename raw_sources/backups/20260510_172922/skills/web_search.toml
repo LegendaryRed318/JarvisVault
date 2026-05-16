@@ -1,0 +1,12 @@
+[skill]
+name = "web_search"
+description = "Search the live web for information using DuckDuckGo."
+trigger = "search the web for"
+aliases = ["google", "look up on the internet", "search for", "web search"]
+trigger_mode = "contains"
+priority = 10
+requires_online = true
+
+[action]
+type = "command"
+handler = "handle_web_search"

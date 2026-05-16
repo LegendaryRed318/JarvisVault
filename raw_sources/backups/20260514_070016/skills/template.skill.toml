@@ -1,0 +1,18 @@
+[skill]
+name = "quick_status"
+description = "Example skill template for Jarvis."
+trigger = "quick status"
+aliases = ["status quick", "fast status"]
+trigger_mode = "contains" # contains | exact | regex
+enabled = true
+priority = 50
+requires_online = false
+cooldown_seconds = 2
+timeout_seconds = 6
+response = "All systems available, RED."
+
+[action]
+type = "response" # response | command
+# command = "echo Hello from skill command"
+# timeout_seconds = 4
+response = "Quick status complete."
